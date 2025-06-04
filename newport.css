@@ -171,6 +171,7 @@ text-align: right;
     color: var(--secondary-color);
     display: inline-block;
     margin-top: 50px;
+  
 }
 .home-content h1{
     font-family: 'Nunito',sans-serif;
@@ -256,12 +257,13 @@ text-align: right;
   left: -30px;
 }
 .home-image{
-    position:absolute;
-    top: 0;
-    left:80% ;
+  position:absolute;
+  top:20%;
+  z-index: -10;
+  left: -3%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .home-image img{
   background: var(--primary-color);
